@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register 2</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/public/css/input.css" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="/public/boxicons-2.1.4//css/boxicons.min.css"
+    />
+    <script src="/public/js/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="login-page block sm:flex bg-[length:0] sm:bg-[length:140%]">
+        <div class="form p-[10px_8px] sm:p-[10px_15px] w-full sm:w-4/5">
+          <h1>Welcome!</h1>
+          <h3>Create a new Account</h3>
+          <form action="">
+            <div class="form-input">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Full Name"
+              />
+              <i class="bx bx-user"></i>
+            </div>
+            <div class="form-input">
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Username"
+              />
+              <i class="bx bx-user"></i>
+            </div>
+            <div class="form-input">
+              <input type="email" name="email" id="Email" placeholder="Email" />
+              <i class="bx bx-envelope"></i>
+            </div>
+            <div class="form-input">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <i class="bx bx-lock"></i>
+              <i id="show" class="bx bxs-show"></i>
+            </div>
+            <div class="sign w-[80%] sm:w-[70%]">
+              <div class="btn">
+                <button class="sign-in" type="submit">REGISTER</button>
+              </div>
+              <p>Already have an account? <a href="login.html">login</a></p>
+            </div>
+          </form>
+          <span>OR CREATE WITH</span>
+          <ul>
+            <li>
+              <a href=""><img src="img/facebook.png" alt="facebook" /></a>
+            </li>
+            <li>
+              <a href=""><img src="img/google.png" alt="google" /></a>
+            </li>
+            <li>
+              <a href=""><img src="img/linkedin.png" alt="linkedin" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="img w-[800px] hidden sm:block">
+          <img src="img/login-register2.png" alt="image" />
+        </div>
+      </div>
+    </div>
+    <script src="/public/js/script.js"></script>
+  </body>
+</html>
